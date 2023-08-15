@@ -7,35 +7,37 @@ const itemList = [{
 name: 'Calculadora',
 desc: 'Es una calculadora hecha por mi, realiza operaciones basicas',
 descr: 'Repositorio de la calculadora: ',
-image: 'ingresar link',
+image: './calculadora.png',
 },{
 name: 'Ventas',
 desc: 'Es una calculadora hecha por mi, realiza operaciones basicas',
 descr: 'Repositorio de la calculadora: ',
-image: 'ingresar link',
+image: './ventas.png',
 },{
 name: 'Curso',
 desc: 'Es una calculadora hecha por mi, realiza operaciones basicas',
 descr: 'Repositorio de la calculadora: ',
-image: 'ingresar link',
+image: './calculadora.png',
 }];
 function lista(itemList) {
     item_list.innerHTML = '';
     for (const item of itemList) {
         item_list.innerHTML += `
-            <div class="product-card">
+            <div class="item-card">
+                <div class="image">
                 <img src="${item.image}" alt="${item.name}"/>
-                <div class="product-info">
-                    <div>
-                        <p>$120</p>
+                </div>
+                <div class="item-info">
+                    <div class="nombreItem">
                         <p>${item.name}</p>
-                        <p>${item.desc}</p>
-                        <p>${item.descr}</p>
-                        <p>${item.image}</p>
                     </div>
-                    <figure>
-                        <img src="./icons/bt_add_to_cart.svg" alt="Add to Cart" />
-                    </figure>
+                    <div class="descriPri">
+                        <p>${item.desc}</p>
+                    </div>
+                    <div class="descriSeg">
+                        <p>${item.descr}</p>
+                    </div>    
+                    </div>
                 </div>
             </div>`;
     }
