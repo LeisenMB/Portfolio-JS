@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ventas</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <input type="text" id="saleinput" placeholder="Ingrese una venta" onkeydown="handleKeyPress(event)"> 
+        <button onclick="addSale()">Agregar</button>
+        <input type="number" id="canti" min="1" value="1">
+        <ul id="Sale"></ul>
+        <p>Total de ventas: <span id="totalSales"></span></p>
+        <input type="text" id="saleinput2" placeholder="Ingrese el id de la venta a eliminar" onkeydown="handleKeyPress2(event)">
+        <button onclick="delsale()">Eliminar</button>
+
+        
+        <script src="Tarea.js"></script>
+    </body>
+</html>
