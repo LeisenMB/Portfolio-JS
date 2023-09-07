@@ -15,12 +15,12 @@
   box-shadow: 0px 5px 7px #020024;
 }
 
-.info-item:hover {
+.info-item:hover, a {
   color: #784EFF;
   transition: all .25s ease-in;
 }
 
-.info li {
+.info li, a {
   margin-right: 1.5rem;
 }
 
@@ -29,7 +29,7 @@ width: 100%;
 height: 5rem;
 }
 
-.info-item {
+.info-item, a {
   text-decoration: none;
   color: white;
 }
@@ -98,6 +98,7 @@ h2.dev{
 }
 
 .nombreItem{
+  padding: 1rem;
   text-align: center;
 }
 

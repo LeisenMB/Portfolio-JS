@@ -9,13 +9,13 @@ const itemList = [{
     desc: 'Basic arithmetic calculator',
     descr: 'Perform basic operations: addition, subtraction, multiplication, and division.',
     image: 'imagenes/calculadora.png',
-    repo: 'Repositorio: '
+    repo: 'https://leisenmb.github.io/Portfolio-JS/Calculadora/'
 },{
     name: 'Sales',
     desc: 'Sales record',
     descr: 'Record sales with unique IDs, delete sales, calculate total sales, display price and quantity, and verify product registration.',
     image: 'imagenes/venta.png',
-    repo: 'Repositorio: '
+    repo: 'https://leisenmb.github.io/Portfolio-JS/tarea/'
 },{
     name: 'Course',
     desc: 'JavaScript course applied to a web page, taught on Platzi',
@@ -43,7 +43,7 @@ function lista(itemList) {
                         </div>
                     </div>
                     <div class="nombreItem">
-                        <p>${item.name}</p>
+                        <a href="${item.repo}">${item.name}</a>
                     </div>
                 </div>`;
     }
