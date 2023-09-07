@@ -21,7 +21,7 @@ const itemList = [{
     desc: 'JavaScript course applied to a web page, taught on Platzi',
     descr: 'Course with JavaScript functions applied to a web page, incorporating modules from Platzi, sales, a shopping cart, pricing, and product listings.',
     image: 'imagenes/curso.png',
-    repo: 'Repositorio: '
+    repo: 'https://leisenmb.github.io/curso-frontend-developer-Javascript-practico/'
 }];
 function lista(itemList) {
     item_list.innerHTML = '';
