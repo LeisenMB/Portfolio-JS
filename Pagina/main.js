@@ -33,7 +33,7 @@ function lista(itemList) {
                             <img src="${item.image}" alt="${item.name}" class="image"/>
                             <div class="item-inner">
                                 <p>${item.name}</p>
-                                <span>${item.desc} </span>
+                                <span>${item.desc}</span>
                             </div>
                         </div>
                         <div class="item-back">
@@ -43,7 +43,7 @@ function lista(itemList) {
                         </div>
                     </div>
                     <div class="nombreItem">
-                        <a href="${item.repo}">${item.name}</a>
+                        <a href="${item.repo}">${item.name}, click here</a>
                     </div>
                 </div>`;
     }
